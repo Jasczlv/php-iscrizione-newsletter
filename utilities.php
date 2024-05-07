@@ -1,5 +1,5 @@
 <?php 
-$email = $_GET['email'];
+$email = $_GET['email'] ?? "";
 var_dump($email);
 
 // $validator = str_contains($email, "@") && str_contains($email, ".");

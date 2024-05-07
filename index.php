@@ -15,7 +15,7 @@ create una seconda pagina subscription.php che utilizzando la sessione mostrerà
 
 
 <?php
-include './utilities.php'
+include __DIR__ . '/utilities.php';
 ?>
 
 
